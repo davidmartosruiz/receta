@@ -1,0 +1,20 @@
+/* HOJA DE ESTILO DE LA RECETA DE COCINA*/
+
+body {background-image: url(../images/background.webp);
+    font-family: 'Montserrat', sans-serif;}
+
+#container {width: 80%;
+            background-color: whitesmoke;
+            margin: auto;
+            padding: 20px;
+    }
+
+#container h1 {text-align: center;}
+
+#container h2 {background-color: #edb2b2;
+                padding: 4px;}
+
+#container dl dt {font-weight: bold;}
+
+#container iframe { display: block; /* para obligar a que iframe se comporte como un bloque */
+                    margin: auto;}
