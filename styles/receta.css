@@ -12,9 +12,21 @@ body {background-image: url(../images/background.webp);
 #container h1 {text-align: center;}
 
 #container h2 {background-color: #edb2b2;
-                padding: 4px;}
+                padding: 5px 5px 5px 8px;}
 
 #container dl dt {font-weight: bold;}
 
 #container iframe { display: block; /* para obligar a que iframe se comporte como un bloque */
                     margin: auto;}
+
+.fa {padding-right: 15px;}
+
+/* Media queries para hacer adaptaciones en pantallas pequeñas */
+/* En realidad es un if que pone un límite al tamaño a partir del cual hay que adaptar el estilo para aprovechar el ancho */
+
+/* si estoy en una pantalla que mide como mucho 600px */
+@media only screen and (max-width:700px){
+    #container{width:100%}
+    body{padding: 0;
+        margin: 0;}
+}
